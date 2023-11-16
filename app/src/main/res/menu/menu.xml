@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title=""
+
+        app:cnb_iconColor="#212121"
+        app:cnb_iconTintMode="src_in" />
+    <item
+        android:id="@+id/tech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cnb_iconColor="#FF6F00"
+        app:cnb_iconTintMode="src_in"
+        android:icon="@drawable/baseline_computer_24"
+        android:title="" />
+    <item
+        android:id="@+id/business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cnb_iconColor="#004D40"
+        app:cnb_iconTintMode="src_in"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="" />
+    <item
+        android:id="@+id/science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cnb_iconColor="#4A148C"
+        app:cnb_iconTintMode="src_in"
+        android:icon="@drawable/baseline_science_24"
+        android:title="" />
+    <item
+        android:id="@+id/sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:cnb_iconColor="#0D47A1"
+        app:cnb_iconTintMode="src_in"
+        android:icon="@drawable/baseline_sports_soccer_24"
+        android:title="" />
+    <item
+        android:id="@+id/entertaiment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cnb_iconColor="#2E7D32"
+        app:cnb_iconTintMode="src_in"
+        android:icon="@drawable/baseline_sports_esports_24"
+        android:title="" />
+    <item
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_heart_broken_24"
+        app:cnb_iconColor="#D50000"
+        app:cnb_iconTintMode="src_in"
+        android:title="" />
+
+
+
+
+</menu>

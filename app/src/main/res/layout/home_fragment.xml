@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewScience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Science"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewScience"
+        app:layout_constraintStart_toStartOf="@+id/imageViewScience"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewScience" />
+
+    <TextView
+        android:id="@+id/textViewSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sport"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSport"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSport"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSport" />
+
+    <TextView
+        android:id="@+id/textViewHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHealth"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHealth"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHealth" />
+
+    <TextView
+        android:id="@+id/textBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewBusiness"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBusiness"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBusiness" />
+
+    <TextView
+        android:id="@+id/textViewEnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewEnt"
+        app:layout_constraintStart_toStartOf="@+id/imageViewEnt"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEnt" />
+
+    <ImageView
+        android:id="@+id/imageViewTech"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewScience"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBusiness"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/tech" />
+
+    <ImageView
+        android:id="@+id/imageViewSport"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewHealth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewScience"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBusiness"
+        app:srcCompat="@drawable/sport" />
+
+    <ImageView
+        android:id="@+id/imageViewHealth"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewEnt"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSport"
+        app:srcCompat="@drawable/health" />
+
+    <ImageView
+        android:id="@+id/imageViewScience"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewEnt"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSport"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTech"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/science" />
+
+    <ImageView
+        android:id="@+id/imageViewEnt"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewHealth"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewScience"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/entertainment" />
+
+    <ImageView
+        android:id="@+id/imageViewBusiness"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewTech"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:srcCompat="@drawable/business" />
+
+    <TextView
+        android:id="@+id/textViewTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTech"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTech"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTech" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
