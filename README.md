@@ -1,10 +1,9 @@
 # News 50
 
-<p float="left">
-  <img src="./app/src/main/res/drawable/news1.png" alt="Project Screenshot" width="300"/>
-  <img src="./app/src/main/res/drawable/news2.png" alt="Project Screenshot" width="300"/>
-  <img src="./app/src/main/res/drawable/news3.png" alt="Project Screenshot" width="300"/>
-</p>
+![Project Screenshot](./app/src/main/res/drawable/news1.png)
+![Project Screenshot](./app/src/main/res/drawable/news2.png)
+![Project Screenshot](./app/src/main/res/drawable/news3.png)
+
 
 
 
